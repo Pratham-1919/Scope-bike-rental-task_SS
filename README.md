@@ -31,4 +31,4 @@ This generates a freshly serialized .pkl package inside models/ containing the e
 
 # Launching the Live API Server
 
-Spin up the Uvicorn web wrapper to host the FastAPI inference pipeline: python -m uvicorn api.main:app --reload
+python -m uvicorn api.main:app --reload
